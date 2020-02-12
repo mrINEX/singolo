@@ -12,14 +12,17 @@ header {
 
 header div {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 main {
     width: 1020px;
-    height: 600px;
+    height: 593px;
     background-color: #f06c64;
+    border-bottom: 7px solid #ea676b;
+    /* line-height: 605px;
+    text-align-last: justify; */
+    display: inline-flex;
 }
 
 footer {
@@ -33,6 +36,7 @@ ul.select-bar li {
     font-family: Lato-Bold;
     font-size: 12px;
     cursor: pointer;
+    margin-left: 24px;
 }
 
 /* class selectors */
@@ -50,12 +54,60 @@ ul.select-bar li {
 }
 
 .select-bar {
-    word-spacing: 24px;
     color: #ffffff;
-    margin: 38px 40px 30px 0;
+    margin: 39px 40px 30px 0;
 }
 
 ul.select-bar li:first-child {
     color: #f06c64;
     padding-right: 2px;
 }
+
+.left {
+    cursor: pointer;
+    margin-left: 42px;
+    position: relative;
+    bottom: 2px;
+}
+
+.right {
+    cursor: pointer;
+    margin-right: 40px;
+    position: relative;
+    bottom: 2px;
+}
+
+.vertical-phone {
+    width: 215px;
+    height: 458px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+    margin: 53px 0 0 53px;
+    position: relative;
+    z-index: 2;
+}
+
+.horizontal-phone {
+    width: 458px;
+    height: 215px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+    margin: 174px 82px 0 98px;
+    position: relative;
+    z-index: 2;
+}
+
+.shadow-horizontal {
+    position: absolute;
+    z-index: 1;
+    top: 269px;
+    left: 426px;
+}
+
+.shadow-vertical {
+    position: absolute;
+    z-index: 1;
+    top: 148px;
+    left: 111px;
+}
+/* #ce5d56 */

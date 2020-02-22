@@ -7,3 +7,13 @@
     font-family: Lato-BoldItalic; /* Гарнитура шрифта */
     src: url(assets/fonts/Lato/Lato-BoldItalic.ttf); /* Путь к файлу со шрифтом */
 }
+
+@font-face {
+    font-family: Lato-Light; /* Гарнитура шрифта */
+    src: url(assets/fonts/Lato/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-Regular; /* Гарнитура шрифта */
+    src: url(assets/fonts/Lato/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}

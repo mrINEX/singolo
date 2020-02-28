@@ -399,6 +399,7 @@ main {
     line-height: 30px;
     color: #767e9e;
     font-family: Lato-Light;
+    text-align: justify;
 }
 
 .row-list {
@@ -511,4 +512,104 @@ main {
     background-image: url(./assets/image/n1.png);
     background-position-x: -8px;
     background-position-y: -11px;
+}
+
+/* about us */
+.about-container {
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid white;
+    flex-direction: column;
+}
+
+.people-container {
+    width: 960px;
+    display: flex;
+    margin: 24px 20px 10px 30px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.people-container div:nth-child(1) div {
+    background-image: url(./assets/image/woman1.png);
+    width: 300px;
+    height: 300px;
+}
+
+.people-container div:nth-child(2) div {
+    background-image: url(./assets/image/man2.png);
+    width: 300px;
+    height: 300px;
+}
+
+.people-container div:nth-child(3) div {
+    background-image: url(./assets/image/woman3.png);
+    width: 300px;
+    height: 300px;
+}
+
+.avatar h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: Lato-Black;
+    text-align: justify;
+    margin-bottom: -3px;
+    margin-left: -2px;
+}
+
+.avatar p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: Lato-Regular;
+    text-align: justify;
+    width: 300px;
+}
+
+.people-container div:first-child p {
+    text-align: left;
+    width: 304px;
+}
+
+.about-social {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.about-social span {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #666d89;
+    margin: 0 8px 0 0;
+}
+
+.about-social span:nth-child(1) {
+    background-image: url(./assets/image/facebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-social span:nth-child(2) {
+    background-image: url(./assets/image/google+.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-social span:nth-child(3) {
+    background-image: url(./assets/image/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-social span:nth-child(4) {
+    background-image: url(./assets/image/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }

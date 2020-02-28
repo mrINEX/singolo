@@ -17,3 +17,8 @@
     font-family: Lato-Regular; /* Гарнитура шрифта */
     src: url(assets/fonts/Lato/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
 }
+
+@font-face {
+    font-family: Lato-Black; /* Гарнитура шрифта */
+    src: url(assets/fonts/Lato/Lato-Black.ttf); /* Путь к файлу со шрифтом */
+}

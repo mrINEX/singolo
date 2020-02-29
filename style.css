@@ -417,7 +417,7 @@ main {
     border-radius: 5px;
     background-color: #0f0f0f;
     border: 1px solid #666d89;
-    /* border: 1px solid #c5c5c5; */
+    cursor: pointer;
     background-color: #2d303a;
 }
 
@@ -582,33 +582,39 @@ main {
     margin-top: 10px;
 }
 
-.about-social span {
+.about-social span,
+.footer-about-social span {
     width: 30px;
     height: 30px;
     border-radius: 15px;
     border: 1px solid #666d89;
     margin: 0 8px 0 0;
+    cursor: pointer;
 }
 
-.about-social span:nth-child(1) {
+.about-social span:nth-child(1),
+.footer-about-social span:nth-child(1) {
     background-image: url(./assets/image/facebook.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.about-social span:nth-child(2) {
+.about-social span:nth-child(2),
+.footer-about-social span:nth-child(2) {
     background-image: url(./assets/image/google+.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.about-social span:nth-child(3) {
+.about-social span:nth-child(3),
+.footer-about-social span:nth-child(3) {
     background-image: url(./assets/image/twitter.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.about-social span:nth-child(4) {
+.about-social span:nth-child(4),
+.footer-about-social span:nth-child(4) {
     background-image: url(./assets/image/linkedin.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -669,6 +675,7 @@ input {
     font-size: 12px;
     line-height: 34px;
     font-family: Lato-Regular;
+    resize: none
 }
 
 .contacts-container {
@@ -704,6 +711,7 @@ input {
     line-height: 21px;
     color: #f0d8d9;
     font-family: Lato-Regular;
+    cursor: pointer;
 }
 
 .contact {
@@ -729,4 +737,25 @@ input {
 
 .contdiff {
     margin: 0 13px;
+}
+
+footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 6px;
+    color: #666d89;
+    font-family: Lato-Regular;
+    margin: 35px 0 30px 40px;
+}
+
+.footer-about-social {
+    display: inline-flex;
+    margin: 22px 32px;
 }

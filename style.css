@@ -10,6 +10,12 @@ header {
     border-bottom: 6px solid #323746;
 }
 
+a {
+    text-decoration: none;
+    cursor: default;
+    color: white;
+}
+
 header div {
     display: flex;
     justify-content: space-between;
@@ -793,12 +799,6 @@ footer p {
     line-height: 22px;
     font-family: Lato-Regular;
     cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    cursor: default;
-    color: white;
 }
 
 a.active {

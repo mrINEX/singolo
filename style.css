@@ -798,6 +798,7 @@ footer p {
 a {
     text-decoration: none;
     cursor: default;
+    color: white;
 }
 
 a.active {

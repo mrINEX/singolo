@@ -87,18 +87,18 @@ section {
     display: flex;
 }
 
-/* a:link, */
-a:visited,
-a:hover,
-a:active {
-    color: white;
-}
-
 ul.select-bar li {
     display: inline;
     font-family: Lato-Bold;
     font-size: 12px;
     margin-left: 22px;
+}
+
+ul.select-bar-mini li {
+    display: inline;
+    font-family: Lato-Bold;
+    margin-left: 22px;
+    margin: 5vw;
 }
 
 li + li::before {
@@ -129,7 +129,8 @@ li + li::before {
 }
 .select-bar-mini {
     color: #ffffff;
-    margin: 39px 40px 30px 0;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .left {
@@ -316,11 +317,11 @@ li + li::before {
 }
 
 .small-btn-blue {
-    width: 32px;
-    height: 33px;
-    border-radius: 18px;
+    width: 3.2vw;
+    height: 3.3vw;
+    border-radius: 1.8vw;
     background-color: #fafafa;
-    margin: 2px;
+    margin: 0.2vw;
 }
 
 .home-botton div {
@@ -334,13 +335,13 @@ li + li::before {
 }
 
 .small-btn-blue-border {
-    width: 9px;
-    height: 9px;
-    border: 1px solid #bababa;
-    border-radius: 2px;
+    width: 0.9vw;
+    height: 0.9vw;
+    border: 0.1vw solid #bababa;
+    border-radius: 0.2vw;
     background-color: white;
     display: inline-block;
-    margin: 10px;
+    margin: 1.0vw;
 }
 
 .home-botton-horizontal {
@@ -895,23 +896,23 @@ a:not(.active):hover {
 
 .message-block {
     position: fixed;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background-color: rgba(29, 29, 26, 0.823);
-    z-index: 10;
+    z-index: 40;
 }
 
 .message {
     position: absolute;
-    top: calc(25% - 5%);
-    left: calc(50% - 10%);
+    top: 25%;
+    left: 25%;
     text-align: center;
     background-color: #f06c64;
     color: white;
     font-family: Lato-Regular;
-    padding: 5% 10%;
+    padding: 10px 20px;
 }
 
 .message span {
@@ -1090,6 +1091,12 @@ a:not(.active):hover {
         left: -12px;
         content: '';
         color: gray;
+    }
+
+    a:visited,
+    a:hover,
+    a:active {
+        color: white;
     }
 
     @media (max-width: 540px) {

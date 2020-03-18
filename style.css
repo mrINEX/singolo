@@ -83,7 +83,7 @@ section {
 
 .main-slide {
     background-color: #f06c64;
-    border-bottom: 6px solid #ea676b;
+    border-bottom: 0.6vw solid #ea676b;
     display: flex;
 }
 
@@ -800,7 +800,7 @@ input {
 .contacts-container {
     display: inline-flex;
     flex-direction: column;
-    width: 30vw;
+    width: 28vw;
 }
 
 .contacts-container h5 {
@@ -1207,7 +1207,7 @@ a:not(.active):hover {
         }
     }
 
-    @media (max-width: 766px) {
+    @media (max-width: 650px) {
         .form {
             width: 100%;
             display: inline-flex;
@@ -1224,6 +1224,16 @@ a:not(.active):hover {
 
         .contacts-container {
             width: 100%;
+        }
+    }
+
+    @media (max-width: 453px) {
+        footer p {
+            display: none;
+        }
+
+        footer {
+            justify-content: center;
         }
     }
 }

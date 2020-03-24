@@ -1051,6 +1051,328 @@ a:not(.active):hover {
 }
 
 
+@media (min-width: 1020px) {
+    body {
+      width: 1020px;
+      margin: 0 auto;
+      background-color: #2d303ae0;
+    }
+
+    .service-items {
+        margin: 0 20px 0 40px;
+        padding-bottom: 34px;
+    }
+
+    .form {
+        width: 560px;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 32px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .contacts-container {
+        width: 280px;
+    }
+
+    #about {
+        width: 1020px;
+        height: 728px;
+    }
+
+    .vertical {
+        margin: 53px 0 71px 112px;
+    }
+
+    .horizontal {
+        margin: 170px 120px 200px 100px;
+    }
+
+    .left {
+        cursor: pointer;
+        margin-left: 0;
+        position: absolute;
+        bottom: 2px;
+        top: 281px;;
+    }
+    
+    .right {
+        cursor: pointer;
+        margin-right: 40px;
+        position: absolute;
+        bottom: 2px;
+        top: 281px;
+        right: 0;
+    }
+    
+
+    .vertical-phone {
+        padding: 0;
+        width: 215px;
+        height: 458px;
+        border-radius: 27px;
+        background-color: #f2f2f2;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+        text-align: -webkit-center;
+    }
+
+    .horizontal-phone {
+        width: 458px;
+        height: 215px;
+        border-radius: 27px;
+        background-color: #f2f2f2;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .shadow-horizontal {
+        top: 0;
+        left: 0;
+        height: 249px;
+        width: 506px;
+    }
+    
+    .shadow-vertical {
+        top: 0;
+        left: 0;
+        width: 249px;
+        height: 505px;
+    }
+
+    /* into phone */
+    .camera {
+        margin: 0;
+        width: 9px;
+        height: 9px;
+        border-radius: 4px;
+        background-color: #d8d8d8;
+        margin-top: 17px;
+        display: inline-block;
+    }
+    .small-camera-blue {
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #d8d8d8;
+        margin-top: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .small-camera-blue .small-camera {
+        width: 2px;
+        height: 2px;
+        background-color: red;
+        border-radius: 1px;
+    }
+    
+    .camera div {
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #eb5055;
+        position: absolute;
+        top: 19px;
+        left: 105px;
+    }
+    
+    .camera-horizontal {
+        margin: 0;
+        width: 9px;
+        height: 9px;
+        border-radius: 4px;
+        background-color: #d8d8d8;
+        margin-right: 17px;
+    }
+    
+    .camera-horizontal div {
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #eb5055;
+        position: absolute;
+        top: 105px;
+        right: 31px;
+    }
+    
+    .micro {
+        width: 36px;
+        height: 5px;
+        border-radius: 3px;
+        background-color: #acacac;
+        margin-top: 10px;
+    }
+    
+    .small-micro-blue {
+        background-color: gray;
+        width: 25px;
+        height: 3px;
+        border-radius: 2px;
+        margin-top: 6px;
+    }
+    
+    .micro-horizontal {
+        margin: 0;
+        width: 5px;
+        height: 36px;
+        border-radius: 3px;
+        background-color: #acacac;
+        margin-right: 10px;
+    }
+    
+    .screen {
+        margin: 0;
+        padding: 0;
+        border: 3px solid #c6c6c6;
+        width: 188px;
+        height: 334px;
+        background-image: url(./assets/image/left-background.png);
+        background-size: 600px;
+        margin-top: 20px;
+        border-radius: 3px;
+        background-position-x: 567px;
+        background-position-y: 446px;
+        background-color: black;
+    }
+    
+    .small-screen-blue {
+        margin-top: 13px;
+        background-image: url(./assets/image/left-background.png);
+        width: 120px;
+        height: 218px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        background-size: 374px;
+        background-position-x: -10px;
+        background-position-y: -85px;
+    }
+    
+    .screen-horizontal {
+        margin: 0;
+        padding: 0;
+        border: 3px solid #c6c6c6;
+        width: 334px;
+        height: 188px;
+        background-image: url(./assets/image/right-background.png);
+        background-size: 600px;
+        margin-right: 20px;
+        border-radius: 3px;
+        background-position-y: -118px;
+        background-position-x: -126px;
+        background-color: black;
+    }
+    
+    .home-botton {
+        width: 42px;
+        height: 42px;
+        border-radius: 21px;
+        background-color: #fafafa;
+        margin-top: 6px
+    }
+    
+    .small-btn-blue {
+        width: 32px;
+        height: 33px;
+        border-radius: 18px;
+        background-color: #fafafa;
+        margin: 2px;
+    }
+    
+    .home-botton div {
+        width: 13px;
+        height: 13px;
+        border: 2px solid #bababa;
+        border-radius: 4px;
+        background-color: white;
+        display: inline-block;
+        margin: 13px;
+    }
+    
+    .small-btn-blue-border {
+        width: 9px;
+        height: 9px;
+        border: 1px solid #bababa;
+        border-radius: 2px;
+        background-color: white;
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .home-botton-horizontal {
+        width: 42px;
+        height: 42px;
+        border-radius: 21px;
+        background-color: #fafafa;
+        margin: 8px;
+    }
+    
+    .home-botton-horizontal div {
+        width: 12px;
+        height: 12px;
+        border: 2px solid #bababa;
+        border-radius: 4px;
+        background-color: white;
+        display: inline-block;
+        margin: 13px;
+    }
+
+    /* about  */
+    
+    .avatar {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+    
+    .people-container div:nth-child(1) div {
+        background-image: url(./assets/image/woman1.png);
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+    }
+    
+    .people-container div:nth-child(2) div {
+        background-image: url(./assets/image/man2.png);
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+    }
+    
+    .people-container div:nth-child(3) div {
+        background-image: url(./assets/image/woman3.png);
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+    }
+    
+    .avatar h3 {
+        font-size: 18px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: Lato-Black;
+        text-align: justify;
+        margin-bottom: -3px;
+        margin-left: -2px;
+    }
+    
+    .avatar p {
+        font-size: 12px;
+        line-height: 22px;
+        color: #767e9e;
+        font-family: Lato-Regular;
+        text-align: justify;
+        width: 300px;
+    }
+}
+
 @media (max-width: 650px) {
     .select-bar {
         display: none;
@@ -1076,7 +1398,9 @@ a:not(.active):hover {
         position: absolute;
         top: -25px;
         left: -25px;
-        width: 396px;
+        /* width: 396px; */
+        width: 278px;
+        height: -webkit-fill-available;
         z-index: 33;
     }
 

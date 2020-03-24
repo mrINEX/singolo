@@ -561,7 +561,7 @@ button:not(.active-tab):hover {
 .images-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 16px 50px 30px;
+    margin: 10px 12px 50px 30px;
     background-color: #2d303a;
 }
 
@@ -1241,6 +1241,52 @@ a:not(.active):hover {
 
         footer {
             justify-content: center;
+        }
+    }
+
+    @media (max-width: 374px) {
+        .service-items div span {
+            width: 15vw;
+            height: 15vw;
+            border-radius: 50%;
+            border: 0.2vw solid;
+            background-size: 8vw;
+        }
+        .service-items div div p {
+            font-size: 3.2vw;
+            margin: 0.8vw 0 0.8vw 0;
+            line-height: 4vw;
+        }
+        .service-items div div h3 {
+            font-size: 5vw;
+        }
+        .wrapper-column {
+            margin-left: 2.0vw;
+            margin-right: 2.0vw;
+            width: 44vw;
+            height: 27.4vw;
+        }
+        .row-list {
+            width: 74.8vw;
+        }
+        .button-tab {
+            font-size: 3.2vw;
+        }
+        .avatar h3, .avatar p {
+            width: 75vw;
+        }
+        .people-container {
+            width: 75vw;
+        }
+        .avatar {
+            width: 75vw;
+        }
+
+        .people-container div:nth-child(1) div,
+        .people-container div:nth-child(2) div,
+        .people-container div:nth-child(3) div {
+            width: 75vw;
+            height: 75vw;
         }
     }
 }
